@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SaTSviz_2
+qgisMinimumVersion=2.0
+description=SaTSviz aims to provide QGIS an additional feature of analysis by utilising SaTScan. All input files needed for SaTScan are created by the plugin and the output files form it are read by the plugin and fed in to QGIS to visualise the analysis results. This plugin provides benefit to both the softwares.
+about=SaTSviz aims to provide QGIS an additional feature of analysis by utilising SaTScan. All input files needed for SaTScan are created by the plugin and the output files form it are read by the plugin and fed in to QGIS to visualise the analysis results. This plugin provides benefit to both the softwares.
+version=2.0
+author=Vasuda Trehan under guidance of Shiva Reddy Kotti
+email=vasudatrehan@gmail.com
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=github.com/vasuda23
+tracker=github.com/vasuda23
+repository=github.com/vasuda23
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
